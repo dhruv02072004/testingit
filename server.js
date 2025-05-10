@@ -27,9 +27,9 @@ app.post('/process', (req, res) => {
 
   res.json({
     is_success: true,
-    user_id: 'john_doe_17091999',
-    email:   'john@xyz.com',
-    roll_number: 'ABCD123',
+    user_id: 'Dhruv Malviya',
+    email:   'dhruvmalviya220807@acropolis.in',
+    roll_number: '0827CS221086',
     odd_numbers,
     even_numbers,
     alphabets
