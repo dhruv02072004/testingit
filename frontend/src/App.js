@@ -18,7 +18,7 @@ function App() {
     }
 
     try {
-      const r = await fetch('http://localhost:3000/process', {
+      const r = await fetch('https://testingit-gmmz.onrender.com/process',{
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify(body)
